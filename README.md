@@ -1,2 +1,2 @@
 # fullstagram
-react study
+graphql + react study
