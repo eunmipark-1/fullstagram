@@ -4,6 +4,7 @@ Instagram clone width Express + prisma + react + react Native study
 
 ## User Stories
 
+- [ ] Log in
 - [ ] Like / UnLike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
@@ -12,7 +13,6 @@ Instagram clone width Express + prisma + react + react Native study
 - [ ] See the full photo
 - [ ] Edit my profile
 - [ ] Create account
-- [ ] Log in
 - [ ] Upload photos
 - [ ] Edit the photo {Delete}
 - [ ] See the feed
