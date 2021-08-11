@@ -8,7 +8,7 @@ Instagram clone width Express + prisma + react + react Native study
 - [x] Request Secret
 - [x] Confirm Secret (Login)
 - [x] Like / UnLike a photo
-- [ ] Comment on a photo
+- [x] Comment on a photo
 - [ ] Search by user
 - [ ] Search by location
 - [ ] Follow / UnFollow User

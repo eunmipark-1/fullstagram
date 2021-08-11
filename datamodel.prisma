@@ -34,6 +34,7 @@ type Comment{
 	id: ID! @id
 	text:  String!
 	post: Post!
+	user: User!
 }
 
 type File {
