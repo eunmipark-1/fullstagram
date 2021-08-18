@@ -16,7 +16,7 @@ Instagram clone width Express + prisma + react + react Native study
 - [x] See user profile
 - [x] See my profile
 - [x] See the full photo
-- [ ] Upload photos
+- [x] Upload photos
 - [ ] Edit the photo {Delete}
 - [ ] See the feed
 - [ ] See room

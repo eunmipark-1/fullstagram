@@ -1,25 +1,25 @@
+export const USER_FRAGMENT = `
+
+		id
+		username
+
+`;
+
 export const COMMENT_FRAGMENT = `
-	fragment CommentParts on Comment {
+	
 		id
 		text
 		user {
 			${USER_FRAGMENT}
 		}
-	}
-`;
 
-export const USER_FRAGMENT = `
-	fragment UserParts on User {
-		id
-		username
-	}
 `;
 
 export const FILE_FRAGMENT = `
-	fragment FileParts on File {
+
 		id
 		url
-	}
+
 `;
 
 export const FULL_POST_FRAGMENT = `
@@ -28,20 +28,14 @@ export const FULL_POST_FRAGMENT = `
 		caption
 		location	
 		files {
-			id
-			url
+			${FILE_FRAGMENT}
 		}
 		comments {
-			id
-			text
-			user{
-				id
-				username
-			}
-		}	
-		user {
-			id
-			username
+			${COMMENT_FRAGMENT}
 		}
+		user {
+			${USER_FRAGMENT}
+		}
+	
 	}
 `;
