@@ -23,24 +23,6 @@ export const FILE_FRAGMENT = `
 
 `;
 
-export const FULL_POST_FRAGMENT = `
-	fragment PostParts on Post {
-		id
-		caption
-		location	
-		files {
-			${FILE_FRAGMENT}
-		}
-		comments {
-			${COMMENT_FRAGMENT}
-		}
-		user {
-			${USER_FRAGMENT}
-		}
-	
-	}
-`;
-
 export const MESSAGE_FRAGMENT = `
 	id
 	text
