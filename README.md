@@ -18,7 +18,7 @@ Instagram clone width Express + prisma + react + react Native study
 - [x] See the full photo
 - [x] Upload photos
 - [x] Edit the photo {Delete}
-- [ ] See the feed
+- [x] See the feed
+- [x] Send private Message
 - [ ] See room
-- [ ] Send private Message
 - [ ] Receive Message(Realtime)
