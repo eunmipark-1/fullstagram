@@ -1,5 +1,6 @@
 type User {
   id: ID! @id
+	avatar: String!
 	username: String!  @unique
 	email: String! @unique
 	firstName: String @default(value:"")
@@ -56,7 +57,7 @@ type File {
 type Room {
 	id: ID! @id
 	participants: [User!]!
-	message: [Message!]!
+	messages: [Message!]!
 	createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
 }
