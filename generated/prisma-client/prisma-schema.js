@@ -1667,7 +1667,7 @@ type Subscription {
 
 type User {
   id: ID!
-  avatar: String!
+  avatar: String
   username: String!
   email: String!
   firstName: String
@@ -1692,7 +1692,7 @@ type UserConnection {
 
 input UserCreateInput {
   id: ID
-  avatar: String!
+  avatar: String
   username: String!
   email: String!
   firstName: String
@@ -1744,7 +1744,7 @@ input UserCreateOneWithoutPostsInput {
 
 input UserCreateWithoutCommentsInput {
   id: ID
-  avatar: String!
+  avatar: String
   username: String!
   email: String!
   firstName: String
@@ -1760,7 +1760,7 @@ input UserCreateWithoutCommentsInput {
 
 input UserCreateWithoutFollowersInput {
   id: ID
-  avatar: String!
+  avatar: String
   username: String!
   email: String!
   firstName: String
@@ -1776,7 +1776,7 @@ input UserCreateWithoutFollowersInput {
 
 input UserCreateWithoutFollowingInput {
   id: ID
-  avatar: String!
+  avatar: String
   username: String!
   email: String!
   firstName: String
@@ -1792,7 +1792,7 @@ input UserCreateWithoutFollowingInput {
 
 input UserCreateWithoutLikesInput {
   id: ID
-  avatar: String!
+  avatar: String
   username: String!
   email: String!
   firstName: String
@@ -1808,7 +1808,7 @@ input UserCreateWithoutLikesInput {
 
 input UserCreateWithoutPostsInput {
   id: ID
-  avatar: String!
+  avatar: String
   username: String!
   email: String!
   firstName: String
@@ -1824,7 +1824,7 @@ input UserCreateWithoutPostsInput {
 
 input UserCreateWithoutRoomsInput {
   id: ID
-  avatar: String!
+  avatar: String
   username: String!
   email: String!
   firstName: String
@@ -1868,7 +1868,7 @@ enum UserOrderByInput {
 
 type UserPreviousValues {
   id: ID!
-  avatar: String!
+  avatar: String
   username: String!
   email: String!
   firstName: String

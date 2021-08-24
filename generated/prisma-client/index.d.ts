@@ -915,7 +915,7 @@ export interface UserCreateOneWithoutCommentsInput {
 
 export interface UserCreateWithoutCommentsInput {
   id?: Maybe<ID_Input>;
-  avatar: String;
+  avatar?: Maybe<String>;
   username: String;
   email: String;
   firstName?: Maybe<String>;
@@ -938,7 +938,7 @@ export interface UserCreateManyWithoutFollowersInput {
 
 export interface UserCreateWithoutFollowersInput {
   id?: Maybe<ID_Input>;
-  avatar: String;
+  avatar?: Maybe<String>;
   username: String;
   email: String;
   firstName?: Maybe<String>;
@@ -993,7 +993,7 @@ export interface UserCreateOneWithoutLikesInput {
 
 export interface UserCreateWithoutLikesInput {
   id?: Maybe<ID_Input>;
-  avatar: String;
+  avatar?: Maybe<String>;
   username: String;
   email: String;
   firstName?: Maybe<String>;
@@ -1016,7 +1016,7 @@ export interface UserCreateManyWithoutFollowingInput {
 
 export interface UserCreateWithoutFollowingInput {
   id?: Maybe<ID_Input>;
-  avatar: String;
+  avatar?: Maybe<String>;
   username: String;
   email: String;
   firstName?: Maybe<String>;
@@ -1061,7 +1061,7 @@ export interface UserCreateOneWithoutPostsInput {
 
 export interface UserCreateWithoutPostsInput {
   id?: Maybe<ID_Input>;
-  avatar: String;
+  avatar?: Maybe<String>;
   username: String;
   email: String;
   firstName?: Maybe<String>;
@@ -1135,7 +1135,7 @@ export interface UserCreateOneInput {
 
 export interface UserCreateInput {
   id?: Maybe<ID_Input>;
-  avatar: String;
+  avatar?: Maybe<String>;
   username: String;
   email: String;
   firstName?: Maybe<String>;
@@ -2277,7 +2277,7 @@ export interface UserCreateManyWithoutRoomsInput {
 
 export interface UserCreateWithoutRoomsInput {
   id?: Maybe<ID_Input>;
-  avatar: String;
+  avatar?: Maybe<String>;
   username: String;
   email: String;
   firstName?: Maybe<String>;
@@ -2546,7 +2546,7 @@ export interface CommentNullablePromise
 
 export interface User {
   id: ID_Output;
-  avatar: String;
+  avatar?: String;
   username: String;
   email: String;
   firstName?: String;
@@ -3815,7 +3815,7 @@ export interface UserSubscriptionPayloadSubscription
 
 export interface UserPreviousValues {
   id: ID_Output;
-  avatar: String;
+  avatar?: String;
   username: String;
   email: String;
   firstName?: String;
