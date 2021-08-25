@@ -24,7 +24,7 @@ export const sendMail = (email) => {
 
 export const sendSecretMail = (address, secret) => {
 	const email = {
-		from: 'mia@naver.com',
+		from: 'mia@inpix.com',
 		to: address,
 		subject: 'Login Secret for Fullstagram',
 		html: `Hello! Your login secret is <strong>${secret}</strong>. <br/> Copy paste on the app/website to log in`,

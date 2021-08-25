@@ -12,6 +12,15 @@ const server = new GraphQLServer({
 	schema,
 	context: ({ request }) => ({ request, isAuthenticated }),
 });
+const express = require('express');
+const cors = require('cors');
+const app = express();
+const corsOptions = {
+	origin: 'http://localhost:3000',
+	credentials: true,
+};
+app.use(cors(corsOptions));
+
 server.express.use(logger('dev'));
 server.express.use(authenticateJwt);
 server.start({ port: PORT }, () => console.log(`✅ Server running on http://localhost:${PORT}`));
